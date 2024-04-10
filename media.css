@@ -1,0 +1,40 @@
+@media (max-width: 768px) {
+    .main-text h2 {
+      font-size: 3rem; /* Adjust font size for smaller screens */
+    }
+    .main-text h5{
+      font-size: 2rem;
+    }
+    .main-text h3{
+      left: 9%;
+    }
+    .image {
+      height: 50%; /* Adjust image height for mobile */
+    }
+  
+    .about{
+      flex-direction: column; 
+    }
+    .first-text{
+      width: 95%;
+    }
+    .second-text{
+      width: 95%;
+      height: 20vh;
+      line-height: 75px;
+      align-items: center;
+    }
+    .work-details{
+      flex-direction: column;
+      margin-top: 30%;
+    }
+    hr{
+      display: none;
+    }
+    .firstdet, .seconddet{
+      width: 95%;
+    }
+    footer{
+      width: 100%;
+    }
+}
